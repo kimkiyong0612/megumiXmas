@@ -1,0 +1,125 @@
+{
+  "frontSide": {
+    "jobTitle": "エンジニア",
+    "name": "ウォンバット太郎"
+  },
+  "selfIntroduction": {
+    "menuItemTitle": "自己紹介",
+    "description": "初めましてウォンバット太郎です。日本にあるウォンバットがいる動物園は3箇所しかないって知ってた？",
+    "socialURLs": [
+      {
+        "name": "github",
+        "url": "{your github id here}"
+      },
+      {
+        "name": "facebook",
+        "url": "{your facebook id here}"
+      },
+      {
+        "name": "medium",
+        "url": "{your medium id here}"
+      }
+    ]
+  },
+  "works": {
+    "menuItemTitle": "ワークス",
+    "categories": [
+      { 
+        "categoryTitle": "ビデオ",
+        "workItems": [
+          {
+            "title": "The best Wombat Movie ever been made!!!",
+            "description": "Is it the best? No, next one.",
+            "url": "https://www.youtube.com/watch?v=OiuQ_rVM-WE",
+            "ogpImageURL": "https://i.ytimg.com/vi/OiuQ_rVM-WE/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCXb_TXomcREr4XtkFI8kV_KOwloA"
+          },
+          {
+            "title": "Can Wombat run?",
+            "description": "Yes! Wombats can run very fast :)",
+            "url": "https://www.youtube.com/watch?v=aUlB4GzeEIc",
+            "ogpImageURL": "https://i.ytimg.com/vi/aUlB4GzeEIc/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDo7q1rEcN0ug547pdailbO1Hl2bQ"
+          },
+          {
+            "title": "Baby Wombat",
+            "description": "My son become to run",
+            "url": "https://www.youtube.com/watch?v=hLL4ZrZeN3s",
+            "ogpImageURL": "https://i.ytimg.com/vi/hLL4ZrZeN3s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDcp2y7YXRpXwAyHGIKFQhzA3TJ5g"
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "menuItemTitle": "コンタクト",
+    "description": "どちらの動物園でも出張いたします。",
+    "contactItems": [
+      {
+        "type": "mail",
+        "label": "{your email here}",
+        "href": "mailto: {your email here}"
+      },
+      {
+        "type": "messenger",
+        "label": "{your messenger id here}",
+        "href": "https://www.facebook.com/help/messenger-app/android/1047811435279151?helpref=uf_permalink"
+      }
+    ]
+  },
+  "career": {
+    "menuItemTitle": "キャリア",
+    "careerItems": [
+      {
+        "year": "2017",
+        "title": "五月山動物園",
+        "description": "リードウォンバット"
+      },
+      {
+        "year": "2014〜2016",
+        "title": "茶臼山動物園",
+        "description": "見習いウォンバット"
+      },
+      {
+        "year": "2000",
+        "title": "誕生",
+        "description": "@オーストラリア"
+      }
+    ]
+  },
+  "skillSet": {
+    "menuItemTitle": "スキルセット",
+    "skillDatum": [
+      {
+        "categoryTitle": "ウォンバットスキル",
+        "dataSets": [
+          {
+            "label": "走る",
+            "level": 1,
+            "barColor": "#F8545B",
+            "annotation": "苦手"
+          },
+          {
+            "label": "食べる",
+            "level": 5,
+            "barColor": "#54B3F8",
+            "annotation": "めちゃ食う"
+          },
+          {
+            "label": "寝る",
+            "level": 5,
+            "barColor": "#34D97A",
+            "annotation": "めちゃ寝る"
+          }
+        ]
+      }
+    ]
+  },
+  "siteMetaData": {
+    "title": "{your title}",
+    "description": "{your description}",
+    "type": "website",
+    "image": "{your ogp image url here}",
+    "twitter": {
+      "site": "{your twitter account here}"
+    }
+  }
+}

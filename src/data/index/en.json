@@ -1,0 +1,125 @@
+{
+  "frontSide": {
+    "jobTitle": "Engineer",
+    "name": "Wombat John"
+  },
+  "selfIntroduction": {
+    "menuItemTitle": "Self Introduction",
+    "description": "Nice to meet you! I'm Wombat John :) Do you know Wombat hun is square?",
+    "socialURLs": [
+      {
+        "name": "github",
+        "url": "{your github id here}"
+      },
+      {
+        "name": "facebook",
+        "url": "{your facebook id here}"
+      },
+      {
+        "name": "medium",
+        "url": "{your medium id here}"
+      }
+    ]
+  },
+  "works": {
+    "menuItemTitle": "Works",
+    "categories": [
+      { 
+        "categoryTitle": "Video",
+        "workItems": [
+          {
+            "title": "The best Wombat Movie ever been made!!!",
+            "description": "Is it the best? No, next one!",
+            "url": "https://www.youtube.com/watch?v=OiuQ_rVM-WE",
+            "ogpImageURL": "https://i.ytimg.com/vi/OiuQ_rVM-WE/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCXb_TXomcREr4XtkFI8kV_KOwloA"
+          },
+          {
+            "title": "Can Wombat run?",
+            "description": "Yes! Wombats can run very fast :)",
+            "url": "https://www.youtube.com/watch?v=aUlB4GzeEIc",
+            "ogpImageURL": "https://i.ytimg.com/vi/aUlB4GzeEIc/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDo7q1rEcN0ug547pdailbO1Hl2bQ"
+          },
+          {
+            "title": "Baby Wombat",
+            "description": "My son become to run✌️",
+            "url": "https://www.youtube.com/watch?v=hLL4ZrZeN3s",
+            "ogpImageURL": "https://i.ytimg.com/vi/hLL4ZrZeN3s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDcp2y7YXRpXwAyHGIKFQhzA3TJ5g"
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "menuItemTitle": "Contact",
+    "description": "Welcome to contact. I'm looking forward to work zoo around the world",
+    "contactItems": [
+      {
+        "type": "mail",
+        "label": "{your email here}",
+        "href": "mailto: {your email here}"
+      },
+      {
+        "type": "messenger",
+        "label": "{your messenger id here}",
+        "href": "https://www.facebook.com/help/messenger-app/android/1047811435279151?helpref=uf_permalink"
+      }
+    ]
+  },
+  "career": {
+    "menuItemTitle": "Career",
+    "careerItems": [
+      {
+        "year": "2017〜",
+        "title": "SatukiyamaZoo@Japan",
+        "description": "Lead Wombat"
+      },
+      {
+        "year": "2014〜2016",
+        "title": "ChausuyamaZoo@Japan",
+        "description": "Disciple Wombat"
+      },
+      {
+        "year": "2000",
+        "title": "Birth",
+        "description": "@Australia"
+      }
+    ]
+  },
+  "skillSet": {
+    "menuItemTitle": "SkillSet",
+    "skillDatum": [
+      {
+        "categoryTitle": "Wombat Skill",
+        "dataSets": [
+          {
+            "label": "Run",
+            "level": 1,
+            "barColor": "#F8545B",
+            "annotation": "Not Good"
+          },
+          {
+            "label": "Eat",
+            "level": 5,
+            "barColor": "#54B3F8",
+            "annotation": "Yeeees!"
+          },
+          {
+            "label": "Sleep",
+            "level": 5,
+            "barColor": "#34D97A",
+            "annotation": "14Hours/Day"
+          }
+        ]
+      }
+    ]
+  },
+  "siteMetaData": {
+    "title": "{your title}",
+    "description": "{your description}",
+    "type": "website",
+    "image": "{your ogp image url here}",
+    "twitter": {
+      "site": "{your twitter account here}"
+    }
+  }
+}
