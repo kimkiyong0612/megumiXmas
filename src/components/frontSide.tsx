@@ -31,8 +31,6 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content:center;
-  // background-color:#eb4955;
-  background-color:#d72207;
   /*
     Prevent text selection to bother rotation on PC
   */

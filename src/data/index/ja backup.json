@@ -5,18 +5,18 @@
   },
   "selfIntroduction": {
     "menuItemTitle": "クリスマスグルーブとは？",
-    "description": "※なんらかの説明文を挿入する",
+    "description": "初めましてウォンバット太郎です。日本にあるウォンバットがいる動物園は3箇所しかないって知ってた？",
     "socialURLs": [
       {
-        "name": "",
+        "name": "github",
         "url": "{your github id here}"
       },
       {
-        "name": "",
+        "name": "facebook",
         "url": "{your facebook id here}"
       },
       {
-        "name": "",
+        "name": "medium",
         "url": "{your medium id here}"
       }
     ]
@@ -39,7 +39,7 @@
   },
   "contact": {
     "menuItemTitle": "コンタクト",
-    "description": "教会へのアクセスを挿入する",
+    "description": "どちらの動物園でも出張いたします。",
     "contactItems": [
       {
         "type": "mail",
@@ -54,7 +54,7 @@
     ]
   },
   "career": {
-    "menuItemTitle": "",
+    "menuItemTitle": "キャリア",
     "careerItems": [
       {
         "year": "2017",
@@ -74,7 +74,7 @@
     ]
   },
   "skillSet": {
-    "menuItemTitle": "",
+    "menuItemTitle": "スキルセット",
     "skillDatum": [
       {
         "categoryTitle": "ウォンバットスキル",
