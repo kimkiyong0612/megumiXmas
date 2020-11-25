@@ -71,9 +71,9 @@ const BackSide = ({ data }) => {
       </a.div>
       )}
       {/* It's not mondatory, but I'm glad to keep this credit which link to cardfolio */}
-      <Credit onClick={(event) => event.stopPropagation()} href="https://github.com/kazuooooo/Cardfolio" target="_blank">
+      {/* <Credit onClick={(event) => event.stopPropagation()} href="https://github.com/kazuooooo/Cardfolio" target="_blank">
         created by cardfolio
-      </Credit>
+      </Credit> */}
     </Container>
   )
 }
@@ -85,12 +85,15 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
+  font-family:fantasy;
 `
 
 const ItemsContainer = styled.section`
   display: flex;
   flex-direction: column;
   overflow: scroll;
+  font-family:fantasy;
+  color:#B0E0E6;
 `
 const MenuItemLink = styled.a`
   font-size: ${FontSize.SubTitle};
@@ -104,6 +107,9 @@ const MenuItemLink = styled.a`
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
+  font-family:fantasy;
+  color:#B0E0E6;
+
 `
 
 const CloseButton = styled.img`
@@ -128,5 +134,6 @@ const Credit = styled.a`
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
+  
 `
 export default BackSide

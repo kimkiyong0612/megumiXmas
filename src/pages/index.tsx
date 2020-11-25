@@ -122,4 +122,9 @@ const BackSideContainer = styled.div`
   backface-visibility: hidden;
   transform: rotateY(180deg);
   background-image: url(${Images.paper});
+  // background-repeat:no-repeat;
+  // background-size:100% ;
+  // background-position:center buttom;
+    // background-color:#eb4955;
+  // background-color:#d72207;
 `
