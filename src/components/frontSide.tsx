@@ -30,7 +30,9 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
+  // background-color:#eb4955;
+  background-color:#d72207;
   /*
     Prevent text selection to bother rotation on PC
   */
@@ -42,9 +44,13 @@ const Container = styled.div`
 `
 
 const Name = styled.div`
-  font-size: 36px;
+  font-size: 32px;
+  font-family:fantasy;
+  color:#B0E0E6;
 `
 const JobTitle = styled.div`
   font-size: ${FontSize.SubTitle};
+  font-family:fantasy;
+  color:#B0E0E6;
 `
 export default FrontSide
