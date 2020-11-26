@@ -36,7 +36,14 @@ export default ({ data, location }) => {
   )
 
   return (
-    <>
+    <body style={{
+      // backgroundImage: 'url(' + Images.background + ')',
+      backgroundColor: '#910000',
+      // position: 'relative',
+      height: '100vh',
+      width: '100 %',
+      // display: 'table'
+    }}>
       <Header data={localeData.siteMetaData} />
       <Container
         style={{
@@ -84,7 +91,8 @@ export default ({ data, location }) => {
           </BackSideContainer>
         </animated.div>
       </Container>
-    </>
+      {/* Illustration by <a href="https://dribbble.com/muratkalkavan">Murat Kalkavan</a> from <a href="https://icons8.com/">Icons8</a> */}
+    </body>
   )
 }
 
