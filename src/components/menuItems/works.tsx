@@ -42,7 +42,7 @@ const Category = ({ category }: { category: IWorkCategory}) => (
     { category.workItems.map((workItem: IWorkItem) => (
       <WorkItem key={workItem.title} href={workItem.url}>
         {/* <img src={workItem.ogpImageURL} alt={workItem.title} /> */}
-        <img src={Images.bandlive} alt="教会の様子" />
+        <img src={Images.thumbnail} alt="教会の様子" />
         <div>
           <h3>{workItem.title}</h3>
           <p>{workItem.description}</p>

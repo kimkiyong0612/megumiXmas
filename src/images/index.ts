@@ -13,6 +13,7 @@ import Paper from './paper.png'
 // import Candle from './candle.jpg'
 import Bandlive from './bandlive.jpg'
 import Members from './members.jpg'
+import Thumbnail from './thumbnail.png'
 
 enum Images {
   github = Github,
@@ -26,7 +27,8 @@ enum Images {
   // background = Backgroud
   // candle = Candle,
   bandlive = Bandlive,
-  members = Members
+  members = Members,
+  thumbnail = Thumbnail
 }
 
 export default Images
