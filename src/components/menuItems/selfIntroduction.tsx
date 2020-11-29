@@ -47,7 +47,7 @@ const SelfIntroduction = (props: Props) => {
           ))}
         </SocialLinks> */}
         <br/>
-        <img src={Images.profile} /><br/>
+        <img src={Images.bandlive} /><br/>
         <Description>{description}</Description>
       </InnerContainer>
     </Container>
