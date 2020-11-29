@@ -9,7 +9,10 @@ import Mail from './mail.png'
 import Messenger from './messenger.png'
 import Profile from './profile.png'
 import Paper from './paper.png'
-import Backgroud from './background.png'
+// import Backgroud from './background.png'
+// import Candle from './candle.jpg'
+import Bandlive from './bandlive.jpg'
+import Members from './members.jpg'
 
 enum Images {
   github = Github,
@@ -20,7 +23,10 @@ enum Images {
   messenger = Messenger,
   profile = Profile,
   paper = Paper,
-  background = Backgroud
+  // background = Backgroud
+  // candle = Candle,
+  bandlive = Bandlive,
+  members = Members
 }
 
 export default Images

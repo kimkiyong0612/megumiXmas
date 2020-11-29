@@ -38,14 +38,16 @@ const SelfIntroduction = (props: Props) => {
     <Container>
       <InnerContainer>
         <Title>{menuItemTitle}</Title>
-        <Img css={IconStyle} fixed={data.file.childImageSharp.fixed} />
+        {/* <Img css={IconStyle} fixed={data.file.childImageSharp.fixed} />
         <SocialLinks>
           {socialURLs.map((social: Social) => (
             <SocialLink key={social.name} href={social.url} target="_blank">
               <img src={Images[social.name]} alt={social.name} />
             </SocialLink>
           ))}
-        </SocialLinks>
+        </SocialLinks> */}
+        <br/>
+        <img src={Images.profile} /><br/>
         <Description>{description}</Description>
       </InnerContainer>
     </Container>
@@ -75,7 +77,10 @@ const InnerContainer = styled.div`
   justify-content: center;
   padding: 0 24px;
 `
-const Title = styled.h1``
+const Title = styled.h1`
+  font-family:fantasy;
+  color:#B0E0E6;
+`
 
 const IconStyle = css`
   margin-top: ${Margins.NotRelated};
@@ -84,6 +89,8 @@ const IconStyle = css`
 `
 const Description = styled.p`
   margin-top: ${Margins.LittleRelated};
+  font-family:fantasy;
+  color:#B0E0E6;
 `
 const SocialLinks = styled.section`
   margin-top: ${Margins.LittleRelated};

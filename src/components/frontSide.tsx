@@ -9,10 +9,14 @@ export interface Props {
     name: string
   }
 }
-const FrontSide = ({ data: { jobTitle, name } }: Props) => (
+const FrontSide = ({ data: { jobTitle, name,  } }: Props) => (
   <Container>
-    <JobTitle>{jobTitle}</JobTitle>
-    <Name>{name}</Name>
+    <JobTitle>{jobTitle}</JobTitle><br/>
+    <Name>{name}</Name><br/><br/>
+    <Descripticon>Sunday, Dec 20, 2020</Descripticon>
+    <Descripticon></Descripticon><br />
+    <Descripticon>18:00 start</Descripticon>
+    <p></p>
   </Container>
 )
 
@@ -48,6 +52,12 @@ const Name = styled.div`
 `
 const JobTitle = styled.div`
   font-size: ${FontSize.SubTitle};
+  font-family:fantasy;
+  color:#B0E0E6;
+`
+
+const Descripticon = styled.div`
+  font-size: 20px;
   font-family:fantasy;
   color:#B0E0E6;
 `

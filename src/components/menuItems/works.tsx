@@ -3,6 +3,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { graphql } from 'gatsby'
 import { FontSize, Margins, shadow } from '../../style'
+import Images from '../../images'
 
 interface IWorkCategory {
   categoryTitle: string,
@@ -40,7 +41,8 @@ const Category = ({ category }: { category: IWorkCategory}) => (
     <h2>{category.categoryTitle}</h2>
     { category.workItems.map((workItem: IWorkItem) => (
       <WorkItem key={workItem.title} href={workItem.url}>
-        <img src={workItem.ogpImageURL} alt={workItem.title} />
+        {/* <img src={workItem.ogpImageURL} alt={workItem.title} /> */}
+        <img src={Images.bandlive} alt="教会の様子" />
         <div>
           <h3>{workItem.title}</h3>
           <p>{workItem.description}</p>
@@ -77,6 +79,8 @@ const Container = styled.div`
 const Title = styled.h1`
   text-align: center;
   margin-bottom: 28px;
+  font-family:fantasy;
+  color:#B0E0E6;
 `
 
 const CategoryItem = styled.section`
@@ -109,5 +113,7 @@ const WorkItem = styled.a`
     }
   }
   box-shadow: ${shadow};
+  font-family:fantasy;
+  color:#B0E0E6;
 `
 export default Works
