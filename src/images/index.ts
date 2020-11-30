@@ -1,34 +1,29 @@
 // NOTE:
 // Not used gatsby Img, because write graphql query every time in load image
 // is very verbose and couldn't find good way to make common.
-import Facebook from './fb.png'
-import Github from './github.png'
-import Qiita from './qiita.png'
-import Medium from './medium.png'
+
 import Mail from './mail.png'
 import Messenger from './messenger.png'
-import Profile from './profile.jpg'
+// import Profile from './profile.jpg'
 import Paper from './paper.png'
-// import Backgroud from './background.png'
-// import Candle from './candle.jpg'
 import Bandlive from './bandlive.jpg'
-import Members from './members.jpg'
+import Seinenkai from './seinenkai.jpg'
 import Thumbnail from './thumbnail.png'
+import Xmasgroove from './xmasgroove.jpg'
+import Poster from './poster.jpg'
+
 
 enum Images {
-  github = Github,
-  qiita = Qiita,
-  medium = Medium,
-  facebook = Facebook,
+ 
   mail = Mail,
   messenger = Messenger,
-  profile = Profile,
+  
   paper = Paper,
-  // background = Backgroud
-  // candle = Candle,
   bandlive = Bandlive,
-  members = Members,
-  thumbnail = Thumbnail
+  seinenkai = Seinenkai,
+  thumbnail = Thumbnail,
+  xmasgroove = Xmasgroove,
+  poster = Poster
 }
 
 export default Images

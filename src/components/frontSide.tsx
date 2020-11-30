@@ -13,10 +13,10 @@ const FrontSide = ({ data: { jobTitle, name,  } }: Props) => (
   <Container>
     <JobTitle>{jobTitle}</JobTitle><br/>
     <Name>{name}</Name><br/><br/>
-    <Descripticon>Sunday, Dec 20, 2020</Descripticon>
-    <Descripticon></Descripticon><br />
-    <Descripticon>18:00 start</Descripticon>
-    <p></p>
+    <Description>Sunday, Dec 20, 2020</Description>
+    <Description></Description><br />
+    <Description>18:00 start</Description><br/>
+    <Description2 >swipe →</Description2>
   </Container>
 )
 
@@ -48,6 +48,7 @@ const Container = styled.div`
 const Name = styled.div`
   font-size: 32px;
   font-family:fantasy;
+  font-weight:bold;
   color:#B0E0E6;
 `
 const JobTitle = styled.div`
@@ -56,8 +57,15 @@ const JobTitle = styled.div`
   color:#B0E0E6;
 `
 
-const Descripticon = styled.div`
+const Description = styled.div`
   font-size: 20px;
+  font-family:fantasy;
+  color:#B0E0E6;
+`
+
+const Description2 = styled.div`
+  font-size: 30px;
+  font-weight:bold;
   font-family:fantasy;
   color:#B0E0E6;
 `

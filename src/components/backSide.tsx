@@ -33,6 +33,8 @@ const BackSide = ({ data }) => {
   }
   return (
     <Container>
+      <img src={Images.poster} /><br />
+      <Description>タッチ↓</Description><br/>
       {// HACK: To hide modal under container disable scroll.
       !currentModal && (
         <Global
@@ -50,6 +52,7 @@ const BackSide = ({ data }) => {
             {data[val].menuItemTitle}
           </MenuItemLink>
         ))}
+        
       </ItemsContainer>
       {showModal && (
       <a.div
@@ -74,6 +77,7 @@ const BackSide = ({ data }) => {
       {/* <Credit onClick={(event) => event.stopPropagation()} href="https://github.com/kazuooooo/Cardfolio" target="_blank">
         created by cardfolio
       </Credit> */}
+      <FakeComponent>アクセス/連絡先<a href="https://church-tmc.jp/contact.html"></a></FakeComponent>
     </Container>
   )
 }
@@ -134,6 +138,18 @@ const Credit = styled.a`
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
-  
+`
+
+const Description = styled.div`
+  font-size: 20px;
+  font-family:fantasy;
+  color:#B0E0E6;
+`
+
+const FakeComponent = styled.div`
+  font-size: ${FontSize.SubTitle};
+  margin-top: ${Margins.LittleRelated};
+  font-family:fantasy;
+  color:#B0E0E6;
 `
 export default BackSide
