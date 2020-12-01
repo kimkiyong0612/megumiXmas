@@ -4,7 +4,7 @@
     "name": "CHRISTMAS GROOVE"
   },
   "selfIntroduction": {
-    "menuItemTitle": "クリスマスグルーブとは？",
+    "menuItemTitle": "どんなイベント？",
     "description": "※なんらかの説明文を挿入する",
     "socialURLs": [
       {
@@ -22,15 +22,15 @@
     ]
   },
   "works": {
-    "menuItemTitle": "教会の雰囲気",
+    "menuItemTitle": "youtube毎日更新中！",
     "categories": [
       { 
         "categoryTitle": "",
         "workItems": [
           {
-            "title": "※youtube埋め込み予定",
-            "description": "解説文を挿入する。",
-            "url": "https://www.youtube.com/watch?v=qaWmKMFkZts",
+            "title": "",
+            "description": "動画で様子や持ち物を説明しています。",
+            "url": "https://www.youtube.com/channel/UC4xze6wGKzFe13rvEV0rt4w",
             "ogpImageURL": "https://i.ytimg.com/vi/OiuQ_rVM-WE/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCXb_TXomcREr4XtkFI8kV_KOwloA"
           }
         ]
@@ -38,7 +38,7 @@
     ]
   },
   "contact": {
-    "menuItemTitle": "コンタクト",
+    "menuItemTitle": "もっと詳しく！",
     "description": "教会へのアクセスを挿入する",
     "contactItems": [
       {

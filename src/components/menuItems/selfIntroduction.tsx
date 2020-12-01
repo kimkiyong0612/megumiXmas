@@ -3,7 +3,6 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { graphql, useStaticQuery } from 'gatsby'
 import { css } from '@emotion/core'
-import Img from 'gatsby-image'
 import Images from '../../images'
 import { Margins, FontSize } from '../../style'
 
@@ -37,16 +36,35 @@ const SelfIntroduction = (props: Props) => {
   return (
     <Container>
       <InnerContainer>
-        <Title>{menuItemTitle}</Title>
-        <Img css={IconStyle} fixed={data.file.childImageSharp.fixed} />
+        <Title>Christmas Grooveとは</Title>
+        {/* <Img css={IconStyle} fixed={data.file.childImageSharp.fixed} />
         <SocialLinks>
           {socialURLs.map((social: Social) => (
             <SocialLink key={social.name} href={social.url} target="_blank">
               <img src={Images[social.name]} alt={social.name} />
             </SocialLink>
           ))}
-        </SocialLinks>
-        <Description>{description}</Description>
+        </SocialLinks> */}
+        <br/>
+        <img src={Images.xmasgroove} /><br/>
+        <Description>
+          私たちは普段、オープン礼拝というバンド形式の礼拝を行なっています。Christmas Groove とは、普段教会に行っている人だけでなく、初めての人もクリスマスを味わえる特別なオープン礼拝です。
+        </Description><br/>
+        <Description2 >
+          今年のテーマは、「生まれた意味」
+        </Description2><br/>
+        <Description>
+          イエス・キリストは何のために生まれたのか、私たちが生まれた目的は何なのか、その真相に迫ります！
+        </Description><br/>
+        <Description3>
+          ※当日は、新型コロナウイルスの感染予防のため、会場は100名までの入場に制限させていただきます。
+        </Description3>
+        <Description3>
+          ※youtubeチャンネル「土浦めぐみ教会 オープン礼拝」(チャンネルのURL)でLive配信もいたしますので、オンラインで参加される方はこちらからご参加ください。
+        </Description3>
+        <Description3>
+          ※チャンネル登録をしておくとLive配信の通知が受け取れますので是非チャンネル登録お願いします!
+        </Description3>
       </InnerContainer>
     </Container>
   )
@@ -75,7 +93,10 @@ const InnerContainer = styled.div`
   justify-content: center;
   padding: 0 24px;
 `
-const Title = styled.h1``
+const Title = styled.h1`
+  font-family:fantasy;
+  color:#B0E0E6;
+`
 
 const IconStyle = css`
   margin-top: ${Margins.NotRelated};
@@ -84,7 +105,25 @@ const IconStyle = css`
 `
 const Description = styled.p`
   margin-top: ${Margins.LittleRelated};
+  font-size:15px;
+  font-family:fantasy;
+  color:#9EBBBF;
 `
+const Description2 = styled.p`
+  margin-top: ${Margins.LittleRelated};
+  font-weight:bold;
+  font-size:15px;
+  font-family:fantasy;
+  color:#9EBBBF;
+`
+
+const Description3 = styled.p`
+  margin-top: ${Margins.LittleRelated};
+  font-size:13px;
+  font-family:fantasy;
+  color:#9EBBBF;
+`
+
 const SocialLinks = styled.section`
   margin-top: ${Margins.LittleRelated};
   display: flex;
