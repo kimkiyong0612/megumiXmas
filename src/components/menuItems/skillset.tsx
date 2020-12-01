@@ -5,6 +5,7 @@ import styled from '@emotion/styled'
 import { graphql } from 'gatsby'
 import { Chart } from 'react-google-charts'
 import { Margins } from '../../style'
+import Images from '../../images'
 
 interface ISkillData {
   categoryTitle: string
@@ -100,11 +101,15 @@ const ChartContainer = styled.div``
 const Title = styled.h1`
   text-align: center;
   margin-bottom: 28px;
+  font-family:fantasy;
+  color:#B0E0E6;
 `
 
 const CategoryTitle = styled.h2`
   margin-top: 36px;
   margin-bottom: ${Margins.Related};
+  font-family:fantasy;
+  color:#B0E0E6;
 `
 
 export default SkillSet
