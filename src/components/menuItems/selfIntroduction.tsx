@@ -95,7 +95,7 @@ const InnerContainer = styled.div`
 `
 const Title = styled.h1`
   font-family:fantasy;
-  color:#B0E0E6;
+  color:#9EBBBF;
 `
 
 const IconStyle = css`
