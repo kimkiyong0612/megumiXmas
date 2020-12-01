@@ -3,6 +3,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { graphql } from 'gatsby'
 import { Margins } from '../../style'
+import Images from '../../images'
 
 interface ICareerItem {
   year: string
@@ -25,7 +26,7 @@ const Career = (props: Props) => {
   return (
     <Container>
       <Title>{menuItemTitle}</Title>
-      <TimeLine />
+      {/* <TimeLine />
       <CareerItemList>
         {careerItems.map((career) => (
           <CareerItem key={career.title}>
@@ -39,7 +40,10 @@ const Career = (props: Props) => {
             </CareerItemTextBox>
           </CareerItem>
         ))}
-      </CareerItemList>
+      </CareerItemList> */}
+      <Description>教会への持ち物や交通手段が動画で確認できます。</Description>
+      <video src={Images.mv} controls width="100%" height="30%"></video>
+      <Inquary href="https://church-tmc.jp/contact.html"><span>※お問い合わせはこちらをタッチ</span></Inquary>
     </Container>
   )
 }
@@ -66,6 +70,8 @@ const Container = styled.div`
 const Title = styled.h1`
   text-align: center;
   margin-bottom: 28px;
+  font-family:fantasy;
+  color:#9EBBBF;
 `
 const TimeLine = styled.div`
   width: 3px;
@@ -106,5 +112,27 @@ const CareerItemTextBox = styled.div`
     overflow-wrap: break-word;
     line-height: 1.5em;
   }
+`
+const Description = styled.p`
+  // margin-bottom: 12px;
+  margin-top: 30px;
+  font-size:0.8rem;
+  font-family:fantasy;
+  color:#9EBBBF;
+`
+
+const Inquary = styled.a`
+  // margin-bottom: 12px;
+  margin-top: 2rem;
+  font-size:0.1rem;
+  font-family:fantasy;
+  color:#9EBBBF;
+  display:flex;
+  justify-content:flex-end;
+  span{
+    background: linear-gradient(transparent 80%, #a8eaff 50%);
+  }
+  
+}
 `
 export default Career

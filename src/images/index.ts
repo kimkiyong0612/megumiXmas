@@ -11,6 +11,7 @@ import Seinenkai from './seinenkai.jpg'
 import Thumbnail from './thumbnail.png'
 import Xmasgroove from './xmasgroove.jpg'
 import Poster from './poster.jpg'
+import MV from './accessMV.mp4'
 
 
 enum Images {
@@ -23,7 +24,9 @@ enum Images {
   seinenkai = Seinenkai,
   thumbnail = Thumbnail,
   xmasgroove = Xmasgroove,
-  poster = Poster
+  poster = Poster,
+
+  mv = MV
 }
 
 export default Images
