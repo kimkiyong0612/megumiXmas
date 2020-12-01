@@ -82,7 +82,7 @@ const Title = styled.h1`
   text-align: center;
   margin-bottom: 28px;
   font-family:fantasy;
-  color:#B0E0E6;
+  color:#9EBBBF;
 `
 
 const Description = styled.p`
