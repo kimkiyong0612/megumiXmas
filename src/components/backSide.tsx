@@ -34,7 +34,7 @@ const BackSide = ({ data }) => {
   return (
     <Container>
       <img src={Images.poster} /><br />
-      <Description>タッチ↓</Description><br/>
+      <Description>タッチ↓</Description>
       {// HACK: To hide modal under container disable scroll.
       !currentModal && (
         <Global

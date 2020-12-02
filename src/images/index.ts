@@ -10,6 +10,7 @@ import Bandlive from './bandlive.jpg'
 import Seinenkai from './seinenkai.jpg'
 import Thumbnail from './thumbnail.png'
 import Xmasgroove from './xmasgroove.jpg'
+import Xmas from './xmas.jpg'
 import Poster from './poster.jpg'
 import MV from './accessMV.mp4'
 
@@ -26,7 +27,8 @@ enum Images {
   xmasgroove = Xmasgroove,
   poster = Poster,
 
-  mv = MV
+  mv = MV,
+  xmas = Xmas
 }
 
 export default Images

@@ -46,7 +46,7 @@ const Container = styled.div`
 `
 
 const Name = styled.div`
-  font-size: 32px;
+  font-size: 28px;
   font-family:fantasy;
   font-weight:bold;
   color:#B0E0E6;

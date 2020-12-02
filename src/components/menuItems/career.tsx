@@ -41,7 +41,8 @@ const Career = (props: Props) => {
           </CareerItem>
         ))}
       </CareerItemList> */}
-      <Description>教会への持ち物や交通手段が動画で確認できます。</Description>
+      <Description2 href="https://church-tmc.jp/pg223.html" >◆アクセス方法はこちらをタッチ</Description2>
+      <Description>※教会への持ち物や交通手段が動画で確認できます。</Description>
       <video src={Images.mv} controls width="100%" height="30%"></video>
       <Inquary href="https://church-tmc.jp/contact.html"><span>※お問い合わせはこちらをタッチ</span></Inquary>
     </Container>
@@ -114,6 +115,14 @@ const CareerItemTextBox = styled.div`
   }
 `
 const Description = styled.p`
+  // margin-bottom: 12px;
+  margin-top: 30px;
+  font-size:0.7rem;
+  font-family:fantasy;
+  color:#9EBBBF;
+`
+
+const Description2 = styled.a`
   // margin-bottom: 12px;
   margin-top: 30px;
   font-size:0.8rem;

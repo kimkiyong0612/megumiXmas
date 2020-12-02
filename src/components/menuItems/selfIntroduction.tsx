@@ -51,10 +51,12 @@ const SelfIntroduction = (props: Props) => {
           私たちは普段、オープン礼拝というバンド形式の礼拝を行なっています。Christmas Groove とは、普段教会に行っている人だけでなく、初めての人もクリスマスを味わえる特別なオープン礼拝です。
         </Description><br/>
         <Description2 >
-          今年のテーマは、「生まれた意味」
-        </Description2><br/>
+          今年のテーマは
+        </Description2>
+        <Description2>「生まれた意味」</Description2>
+        <br />
         <Description>
-          イエス・キリストは何のために生まれたのか、私たちが生まれた目的は何なのか、その真相に迫ります！
+          イエス・キリストは何のために生まれたのか、私たちが生まれた目的は何なのか、その真相に迫ります。
         </Description><br/>
         <Description3>
           ※当日は、新型コロナウイルスの感染予防のため、会場は100名までの入場に制限させていただきます。
@@ -110,7 +112,7 @@ const Description = styled.p`
   color:#9EBBBF;
 `
 const Description2 = styled.p`
-  margin-top: ${Margins.LittleRelated};
+  // margin-top: ${Margins.LittleRelated};
   font-weight:bold;
   font-size:15px;
   font-family:fantasy;

@@ -7,15 +7,15 @@ import skillSetComponent from './skillset'
 export enum MenuItemKey {
   SelfIntroduction = 'selfIntroduction',
   Works = 'works',
-  SkillSet = 'skillSet',
   Contact = 'contact',
   Career = 'career',
+  SkillSet = 'skillSet',
 }
 
 export default {
   [MenuItemKey.SelfIntroduction]: selfIntroductionComponent,
   [MenuItemKey.Works]: worksComponent,
-  [MenuItemKey.SkillSet]: skillSetComponent,
   [MenuItemKey.Contact]: contactComponent,
   [MenuItemKey.Career]: careerComponent,
+  [MenuItemKey.SkillSet]: skillSetComponent,
 }

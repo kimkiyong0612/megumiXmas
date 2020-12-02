@@ -3,8 +3,8 @@ export enum Colors {
 }
 
 export enum FontSize {
-  Title = '24px',
-  SubTitle = '22px',
+  Title = '20px',
+  SubTitle = '26px',
   Text = '16px',
   Supplemnet = '12px'
 }

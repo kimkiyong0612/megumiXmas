@@ -46,10 +46,10 @@ const Category = ({ category }: { category: IWorkCategory}) => (
         <div>
           {/* <h3>{workItem.title}</h3> */}
           {/* <p>{workItem.description}</p> */}
-          <Description>ここをタッチ!</Description>
+          <Description>こちらをタッチ!</Description>
           <Description2>チャンネル登録よろしくお願いします。</Description2>
 
-          <Description>配信スケジュール(毎日更新中)</Description>
+          <Description>〜配信スケジュール(毎日更新中)〜</Description>
           <Table>
             <tr>
               <td>12/1(火)</td>
@@ -131,7 +131,6 @@ const Category = ({ category }: { category: IWorkCategory}) => (
               <td>Chrismas Groove</td>
             </tr>
           </Table>
-
         </div>
       </WorkItem>
     ))}

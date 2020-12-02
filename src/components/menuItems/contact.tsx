@@ -31,7 +31,7 @@ const Works = (props: Props) => {
         <Description>教会に集まって神様に心を向けます。礼拝の中では、聖書の話を聞いたり（メッセージ）、神様に歌を歌ったり（賛美）、思いを伝えたり（祈り）します。クリスチャンであっても、なくても、どんな人でも参加できます。</Description>
 
         <Title>クリスマスとは</Title>
-        <img src={Images.xmasgroove} alt="賛美の画像" /><br />
+        <img src={Images.xmas} alt="賛美の画像" /><br />
         <Description>イエス・キリストの誕生をお祝いする日のこと。神様が人間を愛しているがゆえに、この世界に救い主イエス・キリストを送ってくださいました。このことに感謝し、喜ぶ日がクリスマスです。</Description>
 
         <Title>青年会とは</Title>
