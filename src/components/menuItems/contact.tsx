@@ -76,7 +76,6 @@ const InnerContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 24px;
 `
 const Title = styled.h1`
   text-align: center;
