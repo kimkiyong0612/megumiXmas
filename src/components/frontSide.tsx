@@ -2,6 +2,10 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { graphql } from 'gatsby'
 import { FontSize, Margins } from '../style'
+import Images from '../images'
+
+//画像読み込みのため
+const img = [Images]
 
 export interface Props {
   data: {
