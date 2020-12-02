@@ -33,8 +33,6 @@ const BackSide = ({ data }) => {
   }
   return (
     <Container>
-      <img src={Images.poster} /><br />
-      <Description>タッチ↓</Description>
       {// HACK: To hide modal under container disable scroll.
       !currentModal && (
         <Global
@@ -45,8 +43,10 @@ const BackSide = ({ data }) => {
           `}
         />
       )
-}
-      <ItemsContainer>
+      }
+      <img src={Images.poster} /><br />
+      <Description>タッチ↓</Description>
+      <ItemsContainer>       
         {Object.values(MenuItemKey).map((val) => (
           <MenuItemLink key={val} onClick={(event) => onClickMenuItem(event, val)}>
             {data[val].menuItemTitle}
@@ -98,6 +98,7 @@ const ItemsContainer = styled.section`
   overflow: scroll;
   font-family:fantasy;
   color:#B0E0E6;
+  padding-bottom:10px
 `
 const MenuItemLink = styled.a`
   font-size: ${FontSize.SubTitle};
