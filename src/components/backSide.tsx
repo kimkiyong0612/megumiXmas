@@ -77,6 +77,7 @@ const BackSide = ({ data }) => {
       {/* <Credit onClick={(event) => event.stopPropagation()} href="https://github.com/kazuooooo/Cardfolio" target="_blank">
         created by cardfolio
       </Credit> */}
+      <br/>
     </Container>
   )
 }
