@@ -49,7 +49,7 @@ const Header = ({
         },
         {
           name: 'title',
-          content: '土浦めぐみ教会青年会',
+          content: title,
         },
         {
           name: 'description',

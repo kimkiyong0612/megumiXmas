@@ -46,7 +46,7 @@ const SelfIntroduction = (props: Props) => {
           ))}
         </SocialLinks> */}
         <br/>
-        <img src={Images.xmasgroove} /><br/>
+        <img src={Images.bandlive} /><br/>
         <Description>
           私たちは普段、オープン礼拝というバンド形式の礼拝を行なっています。Christmas Groove とは、普段教会に行っている人だけでなく、初めての人もクリスマスを味わえる特別なオープン礼拝です。
         </Description><br/>
@@ -62,7 +62,7 @@ const SelfIntroduction = (props: Props) => {
           ※当日は、新型コロナウイルスの感染予防のため、会場は100名までの入場に制限させていただきます。
         </Description3>
         <Description3>
-          ※youtubeチャンネル「土浦めぐみ教会 オープン礼拝」(チャンネルのURL)でLive配信もいたしますので、オンラインで参加される方はこちらからご参加ください。
+          ※youtubeチャンネル「土浦めぐみ教会 オープン礼拝」(チャンネルのURL)でLive配信もいたしますので、オンラインで参加される方は<Link href="https://www.youtube.com/channel/UC4xze6wGKzFe13rvEV0rt4w"><span>こちら</span></Link>からご参加ください。
         </Description3>
         <Description3>
           ※チャンネル登録をしておくとLive配信の通知が受け取れますので是非チャンネル登録お願いします!
@@ -140,6 +140,23 @@ const SocialLink = styled.a`
     height: 100%;
   }
 `
+
+
+const Link = styled.a`
+  // // margin-bottom: 12px;
+  // margin-top: 2rem;
+  // font-size:0.1rem;
+  // font-family:fantasy;
+  // color:#9EBBBF;
+  // display:flex;
+  // justify-content:flex-end;
+  font-size:13px;
+  font-family:fantasy;
+  color:#9EBBBF;
+  span{
+    background: linear-gradient(transparent 80%, #a8eaff 50%);
+  }
+`
 export default SelfIntroduction
 
 // NOTE 画像部分こんな感じでできなくもない
@@ -157,3 +174,4 @@ export default SelfIntroduction
 //     }
 //   }
 // }
+

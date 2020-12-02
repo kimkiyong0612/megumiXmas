@@ -41,10 +41,14 @@ const Career = (props: Props) => {
           </CareerItem>
         ))}
       </CareerItemList> */}
-      <Description2 href="https://church-tmc.jp/pg223.html" >◆アクセス方法はこちらをタッチ</Description2>
+      <Description>土浦めぐみ教会は、６号バイパスと旧国道６号線の間に位置し、イオン土浦ショッピングセンターの北側、桜川の土手沿いにあります。</Description>
+      <Description>詳細は以下アクセスマップにてご確認ください。</Description>
+      <Description2>※駐車場完備、お体の不自由な方専用の駐車場もございます。</Description2><br/>
+      {/* <Description2 href="https://church-tmc.jp/pg223.html" ></Description2> */}
+      <Inquary href="https://church-tmc.jp/pg223.html"><span>◆アクセスマップはこちら</span> </Inquary>
       <Description>※教会への持ち物や交通手段が動画で確認できます。</Description>
       <video src={Images.mv} controls width="100%" height="30%"></video>
-      <Inquary href="https://church-tmc.jp/contact.html"><span>※お問い合わせはこちらをタッチ</span></Inquary>
+      <Inquary href="https://church-tmc.jp/contact.html"><span>◆連絡先はこちら</span></Inquary>
     </Container>
   )
 }
@@ -117,15 +121,15 @@ const CareerItemTextBox = styled.div`
 const Description = styled.p`
   // margin-bottom: 12px;
   margin-top: 30px;
-  font-size:0.7rem;
+  font-size:13px;
   font-family:fantasy;
   color:#9EBBBF;
 `
 
 const Description2 = styled.a`
   // margin-bottom: 12px;
-  margin-top: 30px;
-  font-size:0.8rem;
+  margin-top: 16px;
+  font-size:13px;
   font-family:fantasy;
   color:#9EBBBF;
 `
@@ -141,7 +145,5 @@ const Inquary = styled.a`
   span{
     background: linear-gradient(transparent 80%, #a8eaff 50%);
   }
-  
-}
 `
 export default Career

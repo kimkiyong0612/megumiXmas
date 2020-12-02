@@ -27,7 +27,7 @@ const Works = (props: Props) => {
     <Container>
       <InnerContainer><br/>
         <Title>礼拝とは</Title>
-        <img src={Images.bandlive} alt="賛美の画像" /><br/>
+        <img src={Images.xmasgroove} alt="賛美の画像" /><br/>
         <Description>教会に集まって神様に心を向けます。礼拝の中では、聖書の話を聞いたり（メッセージ）、神様に歌を歌ったり（賛美）、思いを伝えたり（祈り）します。クリスチャンであっても、なくても、どんな人でも参加できます。</Description>
 
         <Title>クリスマスとは</Title>
@@ -105,6 +105,8 @@ const ContactLink = styled.a`
     width: 24px;
   }
 `
+
+
 
 
 
