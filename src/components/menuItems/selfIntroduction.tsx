@@ -62,7 +62,7 @@ const SelfIntroduction = (props: Props) => {
           ※当日は、新型コロナウイルスの感染予防のため、会場は100名までの入場に制限させていただきます。
         </Description3>
         <Description3>
-          ※youtubeチャンネル「土浦めぐみ教会 オープン礼拝」(チャンネルのURL)でLive配信もいたしますので、オンラインで参加される方は<Link href="https://www.youtube.com/channel/UC4xze6wGKzFe13rvEV0rt4w"><span>こちら</span></Link>からご参加ください。
+          ※youtubeチャンネル「土浦めぐみ教会 オープン礼拝」でLive配信もいたしますので、オンラインで参加される方は<Link href="https://www.youtube.com/channel/UC4xze6wGKzFe13rvEV0rt4w"><span>こちら</span></Link>からご参加ください。
         </Description3>
         <Description3>
           ※チャンネル登録をしておくとLive配信の通知が受け取れますので是非チャンネル登録お願いします!
