@@ -73,7 +73,7 @@ const Category = ({ category }: { category: IWorkCategory}) => (
             </tr>
             <tr>
               <td>12/6(日)</td>
-              <td>聖書って？</td>
+              <td>クリスマスって？</td>
             </tr>
             <tr>
               <td>12/7(月)</td>
@@ -81,7 +81,7 @@ const Category = ({ category }: { category: IWorkCategory}) => (
             </tr>
             <tr>
               <td>12/8(火)</td>
-              <td>クリスマスって？</td>
+              <td>聖書って？</td>
             </tr>
             <tr>
               <td>12/9(水)</td>
