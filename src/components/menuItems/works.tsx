@@ -81,23 +81,23 @@ const Category = ({ category }: { category: IWorkCategory}) => (
             </tr>
             <tr>
               <td>12/8(火)</td>
-              <td>聖書って？</td>
+              <td>聖書って？キリストって？</td>
             </tr>
             <tr>
               <td>12/9(水)</td>
-              <td>「クリスチャン」ってどんな人？</td>
-            </tr>
-            <tr>
-              <td>12/10(木)</td>
-              <td>「クリスチャン」あるある</td>
-            </tr>
-            <tr>
-              <td>12/11(金)</td>
               <td>罪って？</td>
             </tr>
             <tr>
+              <td>12/10(木)</td>
+              <td>「クリスチャン」ってどんな人？</td>
+            </tr>
+            <tr>
+              <td>12/11(金)</td>
+              <td>「クリスチャン」あるある</td>
+            </tr>
+            <tr>
               <td>12/12(土)</td>
-              <td>イエスキリストの生涯</td>
+              <td>私の好きな聖書箇所</td>
             </tr>
             <tr>
               <td>12/13(日)</td>

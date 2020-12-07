@@ -48,7 +48,7 @@ const SelfIntroduction = (props: Props) => {
         <br/>
         <img src={Images.bandlive} /><br/>
         <Description>
-          私たちは普段、オープン礼拝というバンド形式の礼拝を行なっています。Christmas Groove とは、普段教会に行っている人だけでなく、初めての人もクリスマスを味わえる特別なオープン礼拝です。
+          私たちは普段、オープン礼拝というバンド形式の礼拝を行なっています。Christmas Grooveとは、普段教会に行っている人だけでなく、初めての人もクリスマスを味わえる特別なオープン礼拝です。
         </Description><br/>
         <Description2 >
           今年のテーマは

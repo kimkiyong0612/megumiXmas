@@ -101,7 +101,8 @@ const ItemsContainer = styled.section`
   padding-bottom:10px
 `
 const MenuItemLink = styled.a`
-  font-size: ${FontSize.SubTitle};
+  // font-size: ${FontSize.SubTitle};
+  font-size: 22px;
   margin-top: ${Margins.LittleRelated};
   /*
   Prevent text selection to bother rotation on PC
